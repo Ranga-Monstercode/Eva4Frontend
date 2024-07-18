@@ -1,0 +1,86 @@
+.container{
+    color: white;
+    font-size: 30px;
+    font-weight: bold; /* Hace el texto más grueso */
+    background-color: rgba(0, 0, 0, 0.363); /* Color de fondo para que resalte el borde */
+    border-radius: 10px;
+}
+
+.titulo{
+    color: white;
+    font-size: 2cm;
+    text-align: center;
+}
+
+.textbox{
+    color: white;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Noto sans';
+    }
+
+.video{
+    text-align: center;
+}
+
+.texto{
+    color: white;
+    text-align: center;
+    font-size: 2cm;
+    
+}
+
+@keyframes neon-colors {
+    0% {
+        filter: hue-rotate(0deg);
+        text-shadow: 
+        0 0 5px red,
+        0 0 10px red,
+        0 0 20px red,
+        0 0 40px red,
+        0 0 80px red;
+    }
+    100% {
+        filter: hue-rotate(360deg);
+        text-shadow: 
+        0 0 5px red,
+        0 0 10px red,
+        0 0 20px red,
+        0 0 40px red,
+        0 0 80px red;
+    }
+}
+
+@keyframes entrada {
+    0%, 100% {
+        text-shadow: 
+        0 0 5px purple,
+        0 0 10px purple,
+        0 0 20px purple,
+        0 0 40px purple,
+        0 0 80px purple;
+    }
+    50% {
+        text-shadow: 
+        0 0 0px purple,
+        0 0 0px purple,
+        0 0 0px purple,
+        0 0 0px purple,
+        0 0 0px purple;
+    }
+}
+
+
+.texto {
+    font-size: 2cm;
+    color: rgb(236, 236, 236);
+    animation: neon-colors 5s infinite linear;
+}
+
+.btn-primary{
+    font-size: 2cm;
+    color: rgb(236, 236, 236);
+    animation: entrada 2s infinite linear;
+}
