@@ -6,7 +6,9 @@ function entrada(){
     if(nombre != '' && entrada != 'nada' && cantidad >0){
         if (entrada == 'fluor'){
             let precio = 7000
-            texto.textContent = precio * cantidad
+            pre.textContent = 'Valor de la entrada: $' + precio 
+            entradas.textContent = 'Cantidad de entradas compradas: ' + cantidad
+            pagar.textContent = 'Valor Total a pagar: $' + precio*cantidad
         }
     }
 
