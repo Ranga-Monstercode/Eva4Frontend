@@ -9,6 +9,17 @@ function entrada(){
             pre.textContent = 'Valor de la entrada: $' + precio 
             entradas.textContent = 'Cantidad de entradas compradas: ' + cantidad
             pagar.textContent = 'Valor Total a pagar: $' + precio*cantidad
+
+            setTimeout(function() {
+                alert("La administracion de Disco Stu's Dance Palance a aceptado su compra");}, 2000); 
+        }else if(entrada == 'karaoke'){
+            let precio = 5000
+            pre.textContent = 'Valor de la entrada: $' + precio 
+            entradas.textContent = 'Cantidad de entradas compradas: ' + cantidad
+            pagar.textContent = 'Valor Total a pagar: $' + precio*cantidad
+
+            setTimeout(function() {
+                alert("La administracion de Disco Stu's Dance Palance a aceptado su compra" + );}, 2000); 
         }
     }
 

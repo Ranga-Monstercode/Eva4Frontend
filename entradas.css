@@ -2,9 +2,13 @@
     color: white;
     font-size: 30px;
     font-weight: bold; /* Hace el texto más grueso */
-    
 }
 
+.fnd{
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
 
 
 .titulo {
@@ -12,7 +16,7 @@
     font-size: 2cm;
     display: inline-block;
     margin-left: 16cm;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.5);
     padding: 10px;
     border-radius: 10px;
     
