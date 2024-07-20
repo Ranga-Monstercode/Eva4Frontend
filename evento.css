@@ -1,5 +1,5 @@
 .container{
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 30px;
     font-weight: bold; /* Hace el texto más grueso */
     background-color: rgba(0, 0, 0, 0.363); /* Color de fondo para que resalte el borde */
