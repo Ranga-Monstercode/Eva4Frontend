@@ -1,3 +1,19 @@
-.carrusel1{
-    text-align: center;
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+    padding: 10px;
+    max-width: 1200px;
+    width: 100%;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.gallery div:nth-child(2n) {
+    grid-column: span 2;
+}
+.gallery div:nth-child(3n) {
+    grid-row: span 2;
 }
